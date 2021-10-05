@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            background: url(../images/subtle-prism.svg);
+            background-color: #e79440;
+            background-position: center;
+            background-size: contain;
+            background-repeat: no-repeat;
+        }
+        #container {
+            height: 100vh;
+            padding: 25px;
+        }
+
+        .box {
+            height: 90px;
+            width: 250px;
+        }
+
+        #shadow {
+            background: url(../images/Logo.png);
+            background-color: #e79440;
+            background-position: center;
+            background-size: contain;
+            background-repeat: no-repeat;
+        }
+        #cover{
+            position: absolute;
+            background-color: #00000080;
+            height: 100vh;
+            width: 100vw;
+            z-index: -1;
+        }
+        #main-menu{
+            height: 100vh;
+            width: 100vw;
+            border: 2px solid red;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        ul li{
+            height: 70px;
+            list-style-type:none;
+        }
+        a{
+            color: #ffffff;
+            text-decoration: none;
+            font-size: 30px;
+            text-transform: uppercase;
+            background-color: #e79440;
+            padding: 8px 15px;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="cover">
+        <div id="address">
+            <div id="add-top">
+                <h2>Book a Session</h2>
+                <p>+44 (0) 20 7584 0680 <br>
+                trevor@trevorblountpilates.com</p>
+            </div>
+            <div id="add-mid">
+                <h2>Book a Session</h2>
+                <p>+44 (0) 20 7584 0680 <br>
+                trevor@trevorblountpilates.com</p>
+            </div>            <div id="add-top">
+                <h2>Address</h2>
+                <p>Trevor Blount Pilates <br>
+                    5 Harrington Road <br>
+                    South Kensington <br>
+                    London SW7 3ES <br>
+                    United Kingdom</p>
+            </div>            
+            <div id="add-last">
+                <h3>Instagram</h3>
+            </div>
+        </div>
+        <div id="main-menu">
+            <ul>
+                <li><a href="">home</a></li>
+                <li><a href="">home</a></li>
+                <li><a href="">home</a></li>
+                <li><a href="">home</a></li>
+                <li><a href="">home</a></li>
+                <li><a href="">home</a></li>
+                <li><a href="">home</a></li>
+            </ul>
+        </div>
+    </div>
+    <div id="container">
+        <div class="box" id="shadow"></div>
+    </div>
+</body>
+
+</html>

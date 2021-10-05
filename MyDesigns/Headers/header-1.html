@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;500&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+      integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p"
+      crossorigin="anonymous"
+    />
+    <style>
+      * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+  font-family: "Montserrat", sans-serif;
+}
+
+.uni-padding {
+  padding: 0 7%;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100px;
+  width: 100%;
+  background-color: #8c7ae6;
+}
+
+#logo img {
+  width: 200px;
+  margin: 0 10px;
+}
+
+.fab {
+  color: #ffffff;
+  font-size: 20px;
+}
+
+.fab:active,
+.fab:hover {
+  color: rgba(0, 0, 0, 0.7);
+}
+
+#menu {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 30px;
+}
+
+#menu ul li {
+  height: 50px;
+  display: inline-block;
+}
+
+#menu ul li a {
+  text-decoration: none;
+  color: #ffffff;
+  background-color: #9c88ff;
+  padding: 10px 15px;
+  text-transform: uppercase;
+}
+
+#menu a:hover,
+#menu a:active {
+  background-color: rgba(0, 0, 0, 0.7);
+  transition: 1s;
+}
+
+    </style>
+  </head>
+
+  <body>
+    <header class="uni-padding">
+      <div id="logo">
+        <img src="../images/Logo.png" alt="" />
+      </div>
+      <nav id="menu">
+        <ul>
+          <li><a href="">intro</a></li>
+          <li><a href="">homepage</a></li>
+          <li><a href="">about</a></li>
+          <li><a href="">features</a></li>
+          <li><a href="">pricing</a></li>
+          <li><a href="">blog</a></li>
+          <li><a href="">contact</a></li>
+        </ul>
+      </nav>
+      <div id="social">
+        <i class="fab fa-facebook"></i>
+        <i class="fab fa-twitter"></i>
+        <i class="fab fa-instagram"></i>
+        <i class="fab fa-linkedin"></i>
+        <i class="fab fa-google-plus"></i>
+      </div>
+    </header>
+    <main></main>
+  </body>
+</html>
